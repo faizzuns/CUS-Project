@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="user.com.cus.Fragment.Main.WishlistFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rv_item"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Wishlist"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:visibility="gone"
+            android:id="@+id/txt_no_wishlist"/>
+    </RelativeLayout>
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:padding="10dp"-->
+        <!--android:background="@color/blueApp"-->
+        <!--android:id="@+id/root_total">-->
+        <!--<Button-->
+            <!--android:layout_width="80dp"-->
+            <!--android:layout_height="35dp"-->
+            <!--android:layout_marginTop="15dp"-->
+            <!--android:layout_marginBottom="5dp"-->
+            <!--android:text="NEXT"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:id="@+id/btn_next"-->
+            <!--android:background="@color/yellowButton"-->
+            <!--android:textColor="@android:color/white"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="TOTAL"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:textSize="20sp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:id="@+id/txt_total"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:text="Rp 100.000"-->
+            <!--android:textSize="17sp"-->
+            <!--android:layout_marginTop="2dp"-->
+            <!--android:layout_below="@+id/txt_total"-->
+            <!--android:id="@+id/txt_total_price"/>-->
+    <!--</RelativeLayout>-->
+
+</LinearLayout>

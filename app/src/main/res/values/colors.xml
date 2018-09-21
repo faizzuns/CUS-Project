@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#000000</color>
+    <color name="blueApp">#43c7d0</color>
+    <color name="blueAppSecondary">#3bbac2</color>
+    <color name="blueAppThird">#2d888e</color>
+    <color name="textBlue">#519ed9</color>
+    <color name="lightBlue">#c8e7ff</color>
+    <color name="yellowButton">#fcc500</color>
+    <color name="redApp">#f32e06</color>
+    <color name="gray">#dad6d6</color>
+    <color name="red">#e11717</color>
+</resources>

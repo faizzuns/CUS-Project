@@ -1,0 +1,76 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="user.com.cus.Fragment.Main.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--<com.chabbal.slidingdotsplash.SlidingSplashView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="180dp"-->
+            <!--android:id="@+id/sliding_dot" />-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+            <android.support.v4.view.ViewPager
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/pager_iklan"/>
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabs_dot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                app:tabBackground="@drawable/tab_selector"
+                app:tabIndicatorHeight="0dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_margin="10dp">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Search Near Me!"
+                android:paddingLeft="40dp"
+                android:focusable="false"
+                android:background="@drawable/rounded_list"
+                android:id="@+id/edt_search"/>
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/ic_action_name"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"/>
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:id="@+id/root_printing"
+            android:scaleType="fitXY"
+            android:src="@drawable/station"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:id="@+id/root_food_and_beverages"
+            android:layout_marginTop="20dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/fnb"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/root_mart"
+            android:scaleType="fitXY"
+            android:src="@drawable/mart_banner"/>
+    </LinearLayout>
+</ScrollView>

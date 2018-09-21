@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:background="@android:color/white"
+    android:layout_marginBottom="20dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@color/yellowButton"
+        android:id="@+id/img_place"
+        android:scaleType="fitXY"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#73ffffff"
+        android:id="@+id/view_close"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:background="#80000000">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Toko Emas Sukmaya"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="17sp"
+            android:id="@+id/txt_place_name"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jalan Bagusrangin 1 no 69, Coblong, Jawa Barat, Indonesia, 4013256"
+            android:layout_marginTop="3dp"
+            android:textSize="13sp"
+            android:textColor="@android:color/white"
+            android:id="@+id/txt_address"/>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Jam Buka : 08.00 - 09.00"
+                android:id="@+id/txt_open_hour"
+                android:textColor="@android:color/white"
+                android:layout_centerVertical="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CLOSED"
+                android:background="@drawable/round_red"
+                android:textColor="@android:color/holo_red_light"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:paddingRight="15dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:id="@+id/txt_closed"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
